@@ -6,4 +6,8 @@ def return_evens(num_list):
  
 
 def make_exclamation(sentence_list):
-    pass
+    #iterate through each sentence in the sentence_list 
+    #for each sentence i want to add a "!" at the end.
+    #retun the sentence
+    return [sentence + "!" for sentence in sentence_list]
+    
